@@ -4,8 +4,8 @@
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 /* Button Layout */
@@ -17,6 +17,8 @@ button {
   border-bottom: 10px solid #B2479A;
   border-left: 10px solid #CC7FB5;
   color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
   height: 100px;
   margin: 15px;
   width: 250px;
@@ -24,6 +26,7 @@ button {
 
 .reset {
   border-width: 5px;
+  font-size: 25px;
   height: 50px;
   width: 250px;
 }
@@ -54,10 +57,13 @@ button:hover {
     border-right: 10px solid #CC7FB5;
     border-bottom: 10px solid #B2479A;
     border-left: 10px solid #CC7FB5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
     color: #FFFFFF;
     height: 100px;
     width: 250px;
   }
+
 
   button:hover {
     background: #B2479A;

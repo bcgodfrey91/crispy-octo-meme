@@ -31,12 +31,22 @@ button {
   width: 250px;
 }
 
+/* Hover Elements */
+
 button:hover {
   background: #B2479A;
   border-top: 10px solid #CC7FB5;
   border-right: 10px solid #E5B6D5;
   border-bottom: 10px solid #CC7FB5;
   border-left: 10px solid #E5B6D5;
+}
+
+.reset:hover {
+  background: #B2479A;
+  border-top: 5px solid #CC7FB5;
+  border-right: 5px solid #E5B6D5;
+  border-bottom: 5px solid #CC7FB5;
+  border-left: 5px solid #E5B6D5;
 }
 
 /* Media Query */

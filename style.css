@@ -1,13 +1,32 @@
+.button-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 button {
   background: #E5B6D5;
   border-color: #B2479A #CC7FB5;
   border-width: 10px;
   color: #FFFFFF;
   height: 100px;
-  width: 200px;
+  margin: 15px;
+  width: 250px;
+}
+
+.reset {
+  border-width: 5px;
+  height: 50px;
+  width: 250px;
 }
 
 button:hover {
   background: #B2479A;
-  border-color: #CC7FB5 #E5B6D5;
+  border-top-color: #CC7FB5;
+  border-right-color: #CC7FB5;
+  border-bottom-color: #E5B6D5;
+  border-left-color: #E5B6D5;
 }
